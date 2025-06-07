@@ -82,14 +82,14 @@
 
     --sidebar-background: 25 35% 8%;
     --sidebar-foreground: 28 20% 95%;
-    --sidebar-primary: 110 25% 45%;
-    --sidebar-primary-foreground: 25 35% 8%;
+    --sidebar-primary: 25 50% 35%;
+    --sidebar-primary-foreground: 28 20% 97%;
     --sidebar-accent: 25 25% 15%;
     --sidebar-accent-foreground: 28 20% 95%;
     --sidebar-border: 25 25% 15%;
-    --sidebar-ring: 110 25% 45%;
+    --sidebar-ring: 25 50% 35%;
 
-    --earth-brown: 25 50% 45%;
+    --earth-brown: 25 50% 35%;
     --warm-beige: 28 15% 20%;
     --sage-green: 110 25% 55%;
   }

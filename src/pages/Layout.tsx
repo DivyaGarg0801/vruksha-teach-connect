@@ -8,7 +8,7 @@ const Layout: React.FC = () => {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
 
   return (
-    <div className="min-h-screen bg-green-50/30 flex">
+    <div className="min-h-screen bg-warm-beige/30 flex">
       <Sidebar 
         isCollapsed={sidebarCollapsed}
         onToggle={() => setSidebarCollapsed(!sidebarCollapsed)}
