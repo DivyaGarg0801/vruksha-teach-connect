@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import Sidebar from '@/components/Sidebar';
 import Navbar from '@/components/Navbar';
-import ChatBot from '@/components/ChatBot';
 
 const Layout: React.FC = () => {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
@@ -22,8 +21,6 @@ const Layout: React.FC = () => {
           <Outlet />
         </main>
       </div>
-
-      <ChatBot />
     </div>
   );
 };
